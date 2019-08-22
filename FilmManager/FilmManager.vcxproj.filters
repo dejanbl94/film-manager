@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{3196e144-930e-45ff-b5c9-596026482670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{d54edd09-f1b3-4c07-920f-4f2db9ff048d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Model Headers">
+      <UniqueIdentifier>{1aabb4fb-5ec9-48c1-8695-85cef9ae6f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Database Headers">
+      <UniqueIdentifier>{79206efc-4667-412e-be21-32ef830ea680}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h" />
+    <ClInclude Include="FilmMainForm.h" />
+    <ClInclude Include="ActorMainForm.h" />
+    <ClInclude Include="CategoryMainForm.h" />
+    <ClInclude Include="InsertMovieForm.h" />
+    <ClInclude Include="UpdateMovieForm.h" />
+    <ClInclude Include="InsertActorForm2.h" />
+    <ClInclude Include="Resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Model Headers\Actor.h">
+      <Filter>Headers\Model Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Model Headers\Category.h">
+      <Filter>Headers\Model Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Database Headers\ConnectionProperties.h">
+      <Filter>Headers\Database Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Database Headers\ConnectionString.h">
+      <Filter>Headers\Database Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Model Headers\CurrentStatistics.h">
+      <Filter>Headers\Model Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Model Headers\Film.h">
+      <Filter>Headers\Model Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Database Headers\Repository.h">
+      <Filter>Headers\Database Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FilmManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp" />
+    <ClCompile Include="FilmMainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ActorMainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CategoryMainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateMovieForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertActorForm2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Actor.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Category.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Film.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\Repository.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\ConnectionString.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Database\ConnectionProperties.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\CurrentStatistics.cpp">
+      <Filter>Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Connection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActorMainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FilmMainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertMovieForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateMovieForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
